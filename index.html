@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xiyun Hu - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="header">
+      <div class="header">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li class="corner"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>Future Software Engineer</p>
+          <h1>Hi, I'm <span>Xiyun Hu</span> from UNC <br>major in CS and stats.</h1>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+<!--------------About me------------------>
+    <div id="about">
+      <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/about-user.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p class="paragraph-1"> My name is <strong>Xiyun Hu</strong>, and you can also call me <strong>Eric</strong>. I am pursuing a degree of Computer Science and Statistics at the University of North Carolina at Chapel Hill, with a minor in Information Systems. 
+                   <br>I am a passionate, detail-oriented programmer with an interest in software engineering, machine learning, and artificial intelligence. 
+                   I'm currently working on my original software engineering project. Please wait and see......
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>Web Development</span><br>Utilize HTML, CSS, JavaScript to Develop Webs.</li>
+                  <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                  <li><span>Software Engineering</span><br>Completing Full-Stack Software Engineering Projects</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="Projects">
+                <ul>
+                  <li><span>2024 April</span><br>S&G 500 Companies Correlation Program</li>
+                  <li><span>2024 May</span><br>Stock Rise and Fall Visualization</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="Experiences">
+                <ul>
+                  <li><span>Mar 2024 - Present</span><br>Web Development Intern at Chapel Thrill Escape</li>
+                  <li><span>Dec 2024 - Feb 2024</span><br>Business Research Analyst at Digital4Good</li>
+                </ul>
+              </div>
+              
+              
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+<!------------------------Projects Section--------------------------->
+    <div id="projects">
+        <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+          <div class="projects-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Stock Rise and Fall Visualization</h2>
+                <li>Built Python Pandas for interactive stock visualization</li>
+                <li>Connected to Yahoo Finance to gain access to all data</li>
+                <li>Select stocks and visualize the changes in stock prices</li>
+                <li>Applied in Investopedia stock market simulation, reaped a 35% gain</li>
+                <a href="#"><strong>Learn more</strong></a>
+              </div>
+
+              <div>
+                <h2>S&G 500 Companies Correlation Program</h2>
+                  <li>Developed program to analyze S&G 500 price </li>
+                  <li>Imported data of S&G 500 companies from Yahoo Finance using Beautiful Soup 4</li>
+                  <li>Visualized the correlation using Matplotlib and Matplotlib.pyplot</li>
+                  <li>Analyzed the changes in the stock prices of S&G 500 companies</li>
+                  <a href="#"><strong>Learn more</strong></a>
+                </h2>
+              </div>
+          </div>
+        </div>
+    </div>
+
+<!-----------------------Experiences Section-------------------------->
+    <div id="experiences">
+        <div class="container">
+            <h1 class="sub-title">My Experiences</h1>
+            <div class="experience-list">
+              <div class="work">
+                <img src="images/web dev.jpg">
+                <div class="layer">
+                    <h3>Web Development Intern</h3>
+                    <P>Work as a Web Development Intern at Chapel Thrill Escape, a startup company aiming to provide affordable entertainments on campus.</P>
+                    <a href="https://www.chapelthrillescapes.com/">&#10010;</a>
+                </div>
+              </div>
+
+              <div class="work">
+                <img src="images/business research.jpg">
+                <div class="layer">
+                    <h3>Business Research Intern</h3>
+                    <P>Work as a Business Research Intern at Digital4Good, a non-profit organization aiming to provide help to adolescence.</P>
+                    <a href="https://www.icanhelp.net/">&#10010;</a>
+                </div>
+              </div>
+              
+              <div class="work">
+                <img src="images/swe.jpg">
+                <div class="layer">
+                    <h3>Software Development Engineer</h3>
+                    <p>Currently working on an application that focuses on mental health. Please wait and see...</p>
+                    <a href="#">&#10010;</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------Contact--------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa fa-paper-plane"></i>huxiyun2004@gmail.com</p>
+              <p><i class="fa fa-phone"></i> +1 984-363-0710</p>
+              <div class="social-icons">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+              </div>
+              <a href="images/Xiyun Hu Resume.pdf" class="btn">Download My CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+              <span id="msg">Hello there!</span>
+            </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright @ Xiyun. Made by Xiyun Hu.</p>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <script>
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+
+    </script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzjCZN0nY2EA0v8yvIx7X0TMuUAjuBxGd5buZIUXs9YsYvaS9Tqni5dCD8EHmn1OxFFTg/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  
+  </body>
+</html>
